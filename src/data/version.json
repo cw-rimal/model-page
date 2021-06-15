@@ -1,0 +1,26 @@
+{
+    "versionList": [
+        {
+            "id": "1",
+            "name": "Standard",
+            "price": "₹ 75,000",
+            "link": "https://www.bikewale.com/honda-bikes/activa-6g/?versionId=5236",
+            "priceBreakup": {
+                "exShowroom": "₹ 68,000",
+                "rto": "₹ 5,000",
+                "insurance": "₹ 2000"
+            }
+        },
+        {
+            "id": "2",
+            "name": "Deluxe",
+            "price": "₹ 80,000",
+            "link": "https://www.bikewale.com/honda-bikes/activa-6g/?versionId=5264",
+            "priceBreakup": {
+                "exShowroom": "₹ 73,000",
+                "rto": "₹ 5,000",
+                "insurance": "₹ 2000"
+            }
+        }
+    ]
+}

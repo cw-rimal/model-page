@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Model from './components/Model';
+import City from './components/City';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className="header">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <a className="navbar-brand" href="https://www.bikewale.com/">
+            <img src="https://imgd.aeplcdn.com/0x0/bw/static/design15/old-images/d/bw-logo.png" className="App-logo" alt="logo" />
+          </a>
+          <City/>
+        </nav>
       </header>
-    </div>
+      <div className="container">
+        <Model />
+      </div>
+    </>
   );
 }
 

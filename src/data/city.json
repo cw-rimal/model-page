@@ -1,0 +1,20 @@
+{
+    "cityList": [
+        {
+            "id": "1",
+            "stateId": "1",
+            "stateName": "Maharashtra",
+            "name": "Mumbai"
+        },
+        {
+            "id": "2",
+            "stateId": "1",
+            "stateName": "Maharashtra",
+            "name": "Pune"
+        }
+
+    ],
+    "stateList": [
+        "Maharashtra"
+    ]
+}
